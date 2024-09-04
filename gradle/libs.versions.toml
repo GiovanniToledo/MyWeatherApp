@@ -1,0 +1,60 @@
+[versions]
+agp = "8.5.1"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+org-jetbrains-kotlin-android = "1.9.0"
+lifecycleViewModelKtx = "2.8.4"
+activityKtx = "1.9.1"
+retrofit2 = "2.9.0"
+kotlin-parcelize = "2.0.20"
+coilKtVersion = "2.7.0"
+navigationFragment = "2.7.7"
+nav-safe-args-version = "2.7.7"
+glide-version = "4.16.0"
+jp-wasabeef-version = "4.3.0"
+camerax-version = "1.4.0-rc01"
+tensorflow-version = "0.4.2"
+tensorflow-lite-support-version = "0.4.3"
+legacySupportV4 = "1.0.0"
+lifecycleLivedataKtx = "2.8.4"
+fragmentKtx = "1.5.6"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewModelKtx" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+com-square-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit2" }
+com-square-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit2" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "nav-safe-args-version" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide-version" }
+jp-wasabeef-glide-transformations = { group = "jp.wasabeef", name = "glide-transformations", version.ref = "jp-wasabeef-version" }
+camerax-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax-version" }
+camerax-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax-version" }
+camerax-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax-version" }
+tensor-flow-lite = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tensorflow-version" }
+tensor-flow-lite-support = { group = "org.tensorflow", name = "tensorflow-lite-support", version.ref = "tensorflow-lite-support-version" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+org-jetbrains-kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "org-jetbrains-kotlin-android" }
+org-jetbrains-kotlin-plugin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin-parcelize" }
+navigation-safe-args-plugin = { id = "androidx.navigation.safeargs", version.ref = "nav-safe-args-version" }
