@@ -2,6 +2,6 @@ package com.gtoledo.myweatherapp.presentation.home
 
 import androidx.lifecycle.ViewModel
 
-class HomeForecastViewModel : ViewModel() {
+class HomeViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 }
